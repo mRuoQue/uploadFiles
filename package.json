@@ -2,19 +2,30 @@
     "name": "uploadFiles",
     "private": true,
     "version": "1.0.0",
-    "type": "module",
     "scripts": {
-        "dev": "vite",
+        "dev": "vite --mode dev",
         "build": "vue-tsc && vite build",
-        "preview": "vite preview"
+        "preview": "vite preview",
+        "serve": "cross-env nodemon ./server/index.js"
     },
     "dependencies": {
         "@vue/cli-plugin-typescript": "^5.0.8",
+        "ant-design-vue": "^3.2.15",
+        "axios": "^1.6.8",
+        "koa": "^2.15.3",
+        "koa-body": "^6.0.1",
+        "koa-multer": "^1.0.2",
+        "koa-router": "^12.0.1",
+        "koa2-cors": "^2.0.6",
+        "nodemon": "^3.1.0",
+        "ts-node": "^10.9.2",
         "vue": "^3.4.21"
     },
     "devDependencies": {
         "@types/node": "^20.12.7",
         "@vitejs/plugin-vue": "^5.0.4",
+        "cross-env": "^7.0.3",
+        "koa-bodyparser": "^4.4.1",
         "typescript": "^5.2.2",
         "vite": "^5.2.0",
         "vue-tsc": "^2.0.6"
