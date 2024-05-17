@@ -1,6 +1,7 @@
 import { computed, reactive } from "vue";
 // @ts-ignore
-import { apiPost } from "../http/create.js";
+import { apiUpload } from "../http/create.js";
+import { extname } from "../utils/index";
 
 export default function useUploadFiles(files) {
   const initFiles = (files) => {
@@ -14,6 +15,19 @@ export default function useUploadFiles(files) {
   const default_files = reactive(files.map(initFiles));
 
   const addFiles = (...files) => {
+    console.log(files)
+    files = files.filter((f) =>
+      [
+        ".jpeg",
+        ".jpg",
+        ".bmp",
+        ".gif",
+        ".png",
+        ".webp",
+        ".html",
+        ".json",
+      ].includes(extname(f.name))
+    );
     default_files.push(...files.map(initFiles));
   };
   const deleteFile = (...args) => {
@@ -43,7 +57,7 @@ export default function useUploadFiles(files) {
       };
       form.append("file", file.file);
 
-      const { data, cancel } = await apiPost("/uploadFiles", form, {
+      const { data, cancel } = await apiUpload("/uploadFiles", form, {
         onUploadProgress,
       });
       if (data.msg === "success") {

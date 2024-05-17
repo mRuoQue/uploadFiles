@@ -1,6 +1,9 @@
 <template>
   <div class="container">
-    <DrawContent></DrawContent>
+    <DrawContent
+      :fileSize="1024 * 1024"
+      @drop="addFiles(...$event)"
+    ></DrawContent>
     <div class="operation">
       <a-button type="primary">
         选择文件
@@ -12,10 +15,13 @@
       </a-button>
     </div>
 
-    <FileList :files="default_files" @delete = 'deleteFile($event)' ></FileList>
+    <FileList :files="default_files" @delete="deleteFile($event)"></FileList>
     <div class="operation">
       <a-button type="primary" @click="uploadFile"> 开始上传 </a-button>
     </div>
+
+    <!-- <a-button type="primary" @click="uploadFile"> 回退测试7 </a-button> -->
+
   </div>
 </template>
 
@@ -24,7 +30,7 @@ import DrawContent from "../components/drawContent.vue";
 import FileList from "../components/fileList.vue";
 
 import useUploadFiles from "../hooks/useUpload.ts";
-const { default_files, addFiles, uploadFile ,deleteFile} = useUploadFiles([]);
+const { default_files, addFiles, uploadFile, deleteFile } = useUploadFiles([]);
 
 interface HandleChange {
   (event: Event): void;

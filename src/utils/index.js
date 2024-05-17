@@ -1,4 +1,6 @@
+export const validExt = (source, name) => source.includes(extname(name));
 
+export const validSize = (source, size) => size <= source;
 
 export function extname(e) {
   const i = e?.lastIndexOf(".");

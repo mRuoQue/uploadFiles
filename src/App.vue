@@ -1,10 +1,9 @@
 <script setup lang="ts">
-import uploadFile from "@/pages/index.vue";
 
 </script>
 
 <template>
-  <uploadFile />
+  <router-view></router-view>
 </template>
 
 <style scoped></style>

@@ -38,7 +38,7 @@
 </template>
 
 <script setup>
-import { computed, onMounted } from "vue";
+import { computed, effect, onMounted, watch } from "vue";
 import { columns, extname, fileSize } from "@/utils/index";
 const props = defineProps({
   files: {

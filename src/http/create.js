@@ -9,7 +9,15 @@ export function apiGet(url, options) {
   return _ajax.get(url, options);
 }
 
-export async function apiPost(url, data, options = {}) {
+export function apiPost(url, params) {
+  return _ajax.post(url, params, {
+    headers: {
+      "Content-Type": "application/json",
+    },
+  });
+}
+
+export async function apiUpload(url, data, options = {}) {
   const cancelToken = axios.CancelToken;
   const source = cancelToken.source();
   const { onUploadProgress } = options;

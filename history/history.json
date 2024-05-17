@@ -1,0 +1,68 @@
+{
+  "list": [
+    {
+      "key": 1,
+      "time": "2024/5/17 11:36:36",
+      "html": "<!doctype html>\r\n<html lang=\"en\">\r\n  <head>\r\n    <meta charset=\"UTF-8\" />\r\n    <link rel=\"icon\" type=\"image/svg+xml\" href=\"/vite.svg\" />\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n    <title>Vue3模版</title>\r\n    <script type=\"module\" crossorigin src=\"/assets/index-Mr9yIxmA.js\"></script>\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/index-BKq1aDRq.css\">\n  </head>\r\n  <body>\r\n    <div id=\"app\"></div>\r\r\n  </body>\r\n</html>\r\n",
+      "id": "6d51ec459163e",
+      "version": "1.0.0",
+      "commit": "修改前端项目，测试快速回滚方案"
+    },
+    {
+      "key": 2,
+      "time": "2024/5/17 13:00:34",
+      "html": "<!doctype html>\r\n<html lang=\"en\">\r\n  <head>\r\n    <meta charset=\"UTF-8\" />\r\n    <link rel=\"icon\" type=\"image/svg+xml\" href=\"/vite.svg\" />\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n    <title>Vue3模版</title>\r\n    <script type=\"module\" crossorigin src=\"/assets/index-UTs8OuvP.js\"></script>\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/index-3q-TO9Gh.css\">\n  </head>\r\n  <body>\r\n    <div id=\"app\"></div>\r\r\n  </body>\r\n</html>\r\n",
+      "id": "e6e389aa6309c",
+      "version": "1.0.0",
+      "commit": "修改前端项目，测试快速回滚方案"
+    },
+    {
+      "key": 3,
+      "time": "2024/5/17 13:01:01",
+      "html": "<!doctype html>\r\n<html lang=\"en\">\r\n  <head>\r\n    <meta charset=\"UTF-8\" />\r\n    <link rel=\"icon\" type=\"image/svg+xml\" href=\"/vite.svg\" />\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n    <title>Vue3模版</title>\r\n    <script type=\"module\" crossorigin src=\"/assets/index-D3vY3XCa.js\"></script>\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/index-DM4iPFz_.css\">\n  </head>\r\n  <body>\r\n    <div id=\"app\"></div>\r\r\n  </body>\r\n</html>\r\n",
+      "id": "f345ef6bb4367",
+      "version": "1.0.0",
+      "commit": "修改前端项目，测试快速回滚方案"
+    },
+    {
+      "key": 4,
+      "time": "2024/5/17 13:01:15",
+      "html": "<!doctype html>\r\n<html lang=\"en\">\r\n  <head>\r\n    <meta charset=\"UTF-8\" />\r\n    <link rel=\"icon\" type=\"image/svg+xml\" href=\"/vite.svg\" />\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n    <title>Vue3模版</title>\r\n    <script type=\"module\" crossorigin src=\"/assets/index-s8So7Cxt.js\"></script>\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/index-BKInDeN0.css\">\n  </head>\r\n  <body>\r\n    <div id=\"app\"></div>\r\r\n  </body>\r\n</html>\r\n",
+      "id": "41a538064459c",
+      "version": "1.0.0",
+      "commit": "修改前端项目，测试快速回滚方案"
+    },
+    {
+      "key": 5,
+      "time": "2024/5/17 14:57:28",
+      "html": "<!doctype html>\r\n<html lang=\"en\">\r\n  <head>\r\n    <meta charset=\"UTF-8\" />\r\n    <link rel=\"icon\" type=\"image/svg+xml\" href=\"/vite.svg\" />\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n    <title>Vue3模版</title>\r\n    <script type=\"module\" crossorigin src=\"/assets/index-DIx4AEWj.js\"></script>\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/index-BsGmEZLv.css\">\n  </head>\r\n  <body>\r\n    <div id=\"app\"></div>\r\r\n  </body>\r\n</html>\r\n",
+      "id": "f2b779be2553c",
+      "version": "1.0.0",
+      "commit": "修改前端项目，测试快速回滚方案"
+    },
+    {
+      "key": 6,
+      "time": "2024/5/17 15:22:47",
+      "html": "<!doctype html>\r\n<html lang=\"en\">\r\n  <head>\r\n    <meta charset=\"UTF-8\" />\r\n    <link rel=\"icon\" type=\"image/svg+xml\" href=\"/vite.svg\" />\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n    <title>Vue3模版</title>\r\n    <script type=\"module\" crossorigin src=\"/assets/index-Bz6N3-dD.js\"></script>\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/index-CPeqQXo0.css\">\n  </head>\r\n  <body>\r\n    <div id=\"app\"></div>\r\r\n  </body>\r\n</html>\r\n",
+      "id": "13416353e93bc",
+      "version": "1.0.0",
+      "commit": "修改前端项目，测试快速回滚方案"
+    },
+    {
+      "key": 7,
+      "time": "2024/5/17 15:23:03",
+      "html": "<!doctype html>\r\n<html lang=\"en\">\r\n  <head>\r\n    <meta charset=\"UTF-8\" />\r\n    <link rel=\"icon\" type=\"image/svg+xml\" href=\"/vite.svg\" />\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n    <title>Vue3模版</title>\r\n    <script type=\"module\" crossorigin src=\"/assets/index-DjmXq4Zc.js\"></script>\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/index-Cn6c5cUi.css\">\n  </head>\r\n  <body>\r\n    <div id=\"app\"></div>\r\r\n  </body>\r\n</html>\r\n",
+      "id": "3ef7074a9a2f6",
+      "version": "1.0.0",
+      "commit": "修改前端项目，测试快速回滚方案"
+    },
+    {
+      "time": "2024/5/17 17:10:01",
+      "html": "<!doctype html>\r\n<html lang=\"en\">\r\n  <head>\r\n    <meta charset=\"UTF-8\" />\r\n    <link rel=\"icon\" type=\"image/svg+xml\" href=\"/vite.svg\" />\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n    <title>Vue3模版</title>\r\n    <script type=\"module\" crossorigin src=\"/assets/index-C0r496DB.js\"></script>\n    <link rel=\"stylesheet\" crossorigin href=\"/assets/index-BDaVU2W0.css\">\n  </head>\r\n  <body>\r\n    <div id=\"app\"></div>\r\r\n  </body>\r\n</html>\r\n",
+      "id": "ed017de972134",
+      "version": "1.0.0",
+      "commit": "修改前端项目，测试快速回滚方案",
+      "key": 20
+    }
+  ]
+}
